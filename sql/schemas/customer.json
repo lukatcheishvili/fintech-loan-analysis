@@ -1,0 +1,57 @@
+[
+  {
+    "name": "customer_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "emp_title",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "emp_length",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "home_ownership",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "annual_inc",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "annual_inc_joint",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "verification_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "zip_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "addr_state",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "avg_cur_bal",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Tot_cur_bal",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]

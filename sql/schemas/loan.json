@@ -1,0 +1,92 @@
+[
+  {
+    "name": "loan_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "customer_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "loan_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "loan_amount",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "state",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "funded_amount",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "term",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "int_rate",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "installment",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "grade",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "issue_d",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "issue_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "issue_year",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pymnt_plan",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "purpose",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "description",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "notes",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

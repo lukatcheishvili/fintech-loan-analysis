@@ -1,0 +1,21 @@
+# Raw data: large, re-downloadable, and not ours to redistribute
+data/
+*.csv
+*.zip
+
+# Credentials: never commit these
+*.json
+*-key.json
+.env
+kaggle.json
+# ...except the BigQuery table schemas, which are safe and worth versioning
+!sql/schemas/*.json
+
+# Local assistant settings (per machine)
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "purpose",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
