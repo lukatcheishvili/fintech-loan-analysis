@@ -4,6 +4,8 @@ Analysis of a public fintech loan dataset (270,299 loans, 2012-2019): loan outco
 customer segmentation, and lending-rule recommendations. SQL runs in BigQuery, and the analysis notebook runs in Hex
 (SQL + Python).
 
+**Interactive notebook (Hex):** [Pave Bank - Fintech Loan Analysis](https://app.hex.tech/01a0c31f-57e6-7619-b145-8056d5076f74/app/Pave-Bank---Fintech-Loan-Analysis-034Sba6cFYCE3oQ60aT5kn/latest)
+
 ## Headline findings
 - The lender's own **grade / interest rate** is by far the strongest predictor of default (5.8% for grade A up to
   48.1% for grade G) and of late payment. A model using every other available characteristic reaches a test AUC of only

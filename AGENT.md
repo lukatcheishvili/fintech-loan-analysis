@@ -25,7 +25,7 @@ against local pandas calculations or against Hex outputs. Remaining work is list
   INTEGER / FLOAT / BOOLEAN / STRING): `customer`, `loan`, `loan_with_region`, `loan_count_by_year`, `loan_purposes`,
   `state_region`. Raw tables are never modified.
 - **`v_loans`** (`sql/00_staging.sql`) is the cleaned view and the single source of truth. Every task reads it.
-- **Hex** project "Pave Bank - Fintech Loan Analysis" (private; the link is held by the user). Connection
+- **Hex** project "Pave Bank - Fintech Loan Analysis" (the published app link is in `README.md`; whether outsiders can open it depends on the Hex sharing settings). Connection
   `pave-bank-bigquery` uses a read-only service account `hex-reader` (roles: BigQuery Data Viewer, Job User, Read Session
   User). The key file lives outside the repo. Never commit keys.
 - **Local**: Windows 11, PowerShell, Python 3.12, project `.venv` (pandas, plotly, kaleido, ...). Raw CSVs are in
