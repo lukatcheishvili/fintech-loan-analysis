@@ -6,6 +6,8 @@ customer segmentation, and lending-rule recommendations. SQL runs in BigQuery, a
 
 **Interactive notebook (Hex):** [Pave Bank - Fintech Loan Analysis](https://app.hex.tech/01a0c31f-57e6-7619-b145-8056d5076f74/app/Pave-Bank---Fintech-Loan-Analysis-034Sba6cFYCE3oQ60aT5kn/latest)
 
+**Complete project guide (PDF, 70 pages):** [docs/Fintech-Loan-Analysis-Complete-Project-Guide.pdf](docs/Fintech-Loan-Analysis-Complete-Project-Guide.pdf) explains the data, the BigQuery and Hex work, every code block and chart in plain language, and includes a presentation script and questions with answers.
+
 ## Headline findings
 - The lender's own **grade / interest rate** is by far the strongest predictor of default (5.8% for grade A up to
   48.1% for grade G) and of late payment. A model using every other available characteristic reaches a test AUC of only
@@ -28,7 +30,7 @@ See `docs/assumptions.md` for every judgement call and the reasons behind it.
 | `sql/schemas/` | Explicit BigQuery table schemas for the six source CSVs |
 | `notebooks/` | The Python cells used in Hex (Tasks 3-5), as scripts |
 | `scripts/` | Helper scripts: CSV profiling and schema generation |
-| `docs/` | Assumptions, call talk track, generated schema profile |
+| `docs/` | Assumptions, call talk track, generated schema profile, and the complete project guide (PDF) |
 | `Pave Bank - Fintech Loan Analysis.ipynb` | Export of the Hex notebook (SQL cells appear as commented code) |
 | `AGENT.md` | Full project context for AI assistants |
 

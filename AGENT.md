@@ -87,6 +87,7 @@ against local pandas calculations or against Hex outputs. Remaining work is list
 | `docs/assumptions.md` | Every judgement call and cleaning rule |
 | `docs/talk_track.md` | Call preparation: opening, per-task lines, challenges, likely questions |
 | `docs/schema_profile.md` | Auto-generated column profile of the source CSVs |
+| `docs/Fintech-Loan-Analysis-Complete-Project-Guide.pdf` | 70-page plain-language guide: data, BigQuery, Hex, every code block and chart explained, presentation script, 39 questions with answers. Built from the verified numbers; the Task 5 rules table in it comes from a local run of `notebooks/task5_rules.py` |
 
 ## 8. Conventions and how the user likes to work
 - **Guide one step at a time**, with detailed and precise explanations. Give one step, wait for the user's result, check
